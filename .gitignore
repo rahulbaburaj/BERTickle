@@ -1,0 +1,36 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Virtual Environment
+venv/
+*.venv
+.env/
+.env.*
+
+# IDE - PyCharm
+.idea/
+
+# Operating System
+.DS_Store  # macOS
+Thumbs.db  # Windows
+Desktop.ini # Windows
+
+# Log files
+*.log
+
+# Other
+*.bak
+*.swp
+*.swo
+

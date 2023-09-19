@@ -5,9 +5,10 @@ This module focuses on fetching news and data from various sources, including bu
 
 ## Directory Structure
 
+```
 data_collection/
 │
-├── connectors/                  # Contains individual API connectors
+├── connectors/                  - Contains individual API connectors
 │   ├── base_connector.py        - Base class for all API connectors
 │   ├── worldnewsapi_connector.py- Connector for WorldNewsAPI
 │   ├── newsapi_connector.py     - Placeholder for NewsAPI integration
@@ -15,15 +16,16 @@ data_collection/
 │   ├── twitter_connector.py     - Placeholder for Twitter API
 │   └── ...                      - Other connectors as we expand
 │
-├── models/                      # Data models for consistent representation
+├── models/                      - Data models for consistent representation
 │   ├── news_article.py          - Standard model for a news article
 │   └── ...                      - Other models as needed
 │
-├── utils/                       # Utility functions related to the API interactions
+├── utils/                       - Utility functions related to the API interactions
 │   ├── api_utils.py             - Utility functions for API handling
 │   └── ...                      - Other utility scripts if necessary
 │
-└── config.py                    # Configuration details, including API endpoints
+└── config.py                    - Configuration details, including API endpoints
+```
 
 
 ## System Architecture Overview
