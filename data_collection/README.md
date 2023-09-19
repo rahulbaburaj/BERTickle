@@ -24,6 +24,16 @@ data_collection/
 │   ├── api_utils.py             - Utility functions for API handling
 │   └── ...                      - Other utility scripts if necessary
 │
+├── tests/                       - Contains test scripts corresponding to main modules
+│   ├── test_base_connector.py   - Tests for base_connector functions and behaviors
+│   ├── test_worldnewsapi_connector.py - Tests for WorldNewsAPI connector
+│   ├── test_newsapi_connector.py      - Placeholder tests for NewsAPI connector
+│   ├── test_eiu_connector.py          - Placeholder tests for EIU connector
+│   ├── test_twitter_connector.py      - Placeholder tests for Twitter connector
+│   ├── test_news_article.py           - Tests for news article model
+│   ├── test_api_utils.py              - Tests for API utility functions
+│   └── ...                           - Other test scripts as we expand
+│
 └── config.py                    - Configuration details, including API endpoints
 ```
 
