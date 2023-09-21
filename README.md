@@ -2,7 +2,7 @@
 
 A comprehensive AI-driven platform that fetches news from various sources, leverages the power of BERTopic for topic modeling, and visualizes the results in an interactive Streamlit UI.
 
-![Demo Image](https://github.com/rahulbaburaj/BERTickle/blob/main/images/bar_chart.png)
+![Demo Image](https://github.com/rahulbaburaj/BERTickle/blob/main/assets/bar_chart.png)
 
 ## Features
 

@@ -1,5 +1,5 @@
 import pytest
-from worldnewsapi_connector import WorldNewsAPIConnector
+from data_collection.connectors.worldnewsapi_connector import WorldNewsAPIConnector
 from unittest.mock import patch, Mock
 
 def mock_requests_get(*args, **kwargs):

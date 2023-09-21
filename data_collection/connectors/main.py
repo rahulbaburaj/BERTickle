@@ -22,7 +22,7 @@ if __name__ == "__main__":
     API_KEY = os.environ.get("WORLDNEWS_API_KEY")
     query_text = "supply_chain"  # Using underscore as a separator for filenames
     
-    news_data = fetch_and_save_worldnews_data(API_KEY, query_text=query_text, num_months=1, num_results=100)
+    news_data = fetch_and_save_worldnews_data(API_KEY, query_text=query_text, num_months=12, num_results=100)
     
     print(f"Total number of news articles related to '{query_text.replace('_', ' ')}' fetched: {len(news_data)}")
     print(f"Data has been successfully saved to 'worldnews_{query_text}_data.csv'")
