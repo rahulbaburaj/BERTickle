@@ -6,7 +6,7 @@ A comprehensive AI-driven platform that fetches news from various sources, lever
 
 ## Features
 
-- **News Aggregation**: Integrates with popular news APIs to fetch the latest news from various sources.
+- **News Aggregation**: Integrates with [newscatcherAPI](https://newscatcherapi.com/) to fetch the latest news from various sources.
 - **Topic Modeling**: Uses BERTopic to filter and categorize news articles into intuitive topics.
 - **Interactive UI**: Offers a user-friendly Streamlit interface with visualizations for a seamless user experience.
 
